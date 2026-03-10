@@ -75,14 +75,14 @@ print(normalize('Ʀỏ𝕍3ℛ', prioritize_alpha=False))
 
 If you find the latest version of this package to have an out of date version of the unicode official `confusables.txt`, then why not submit a PR to update it!
 
-First, find out what the latest version of unicode confusables is. Then, run
+First, find out what the latest version of unicode confusables is. Then, run, replacing `{VERSION}` with the unicode version number
 ```
-make update VERSION=X.Y.Z
+wget -O src/confusables/assets/confusables.txt https://www.unicode.org/Public/security/{VERSION}/confusables.txt;
 ```
 
 Next, run
 ```
-make parse
+uv run -m confusables.parse
 ```
 And that's it! Commit your changes and create a pull request.
 
