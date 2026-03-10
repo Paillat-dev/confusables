@@ -3,6 +3,9 @@
 
 # Confusables
 
+> [!NOTE]
+> This is a fork of the original https://github.com/woodgern/confusables.
+
 Confusables is a python package that provides functionality for analyzing and matching words that "appear"
 to be the same or similar, but use different characters.
 
