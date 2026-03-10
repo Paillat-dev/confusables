@@ -1,6 +1,11 @@
-__pycache__/*
-*.pyc
-*egg*
+__pycache__/
+/src/confusables/_version.py
 dist/*
-build/*
-*travis.log
+
+/.python-version
+.env
+/.venv/
+/.tox/
+
+/.idea/
+/.vscode/
