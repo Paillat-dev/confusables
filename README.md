@@ -17,7 +17,7 @@ attempts to get past a profanity filter.
 ## Installation
 
 Confusables can be installed through pip using
-`pip3 install confusables`
+`pip install git+https://github.com/Paillat-dev/confusables.git`
 
 
 ## Usage
